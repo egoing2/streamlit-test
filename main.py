@@ -8,3 +8,10 @@ st.write('# table')
 st.table(view)
 st.write('# bar graph')
 st.bar_chart(view)
+
+topics = [
+    {"id":1, "title":"html", "body":"html is ..."},
+    {"id":1, "title":"css", "body":"css is ..."}
+]
+
+st.table(topics)
