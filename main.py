@@ -17,4 +17,4 @@ topics = [
 st.table(topics)
 
 import padnas as pd
-topics['view']
+topics_pd = pd.DataFrame.from_dict(topics)
